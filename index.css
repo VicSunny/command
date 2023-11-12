@@ -1,0 +1,278 @@
+body {
+    /*   padding-top: 56px; */ /* Adjusted for fixed navbar */
+    box-sizing: border-box;
+  }
+  .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+  }
+  .resume-section {
+      /* padding: 60px 0; */
+      height: 100vh;
+      background-color:#FFC33C !important;
+      display: flex;
+      align-items: center;
+  }
+  .section1,  .section3 {
+      background-attachment: fixed;
+}
+  .section1 {
+      min-height: 100vh;
+      background-image: url("./15186165_5566879.jpg");
+      background-size: cover;
+      background-position: center;
+  /*  position: relative;*/
+      text-align: center;
+      color: rgb(19, 17, 17);
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      margin: 0;
+}
+.section3 {
+height: 100vh;
+background-image: url("./15186165_5566879.jpg");
+background-size: cover;
+background-position: center;
+/* position: relative;*/
+/*  text-align: center; */
+color: rgb(23, 21, 21);
+/*  display: flex;
+align-items: center;
+justify-content: center; */
+}
+.contact-section{
+background-image: url("./15186165_5566879.jpg");
+background-size: cover;
+background-position: center;
+/* position: relative;*/
+/*  text-align: center; */
+color: rgb(23, 21, 21);
+padding: 40px;
+}
+.person{
+max-width: 100%; /* Робить картинку респонсивною */
+height: auto; /* Забезпечує автоматичне збереження пропорцій розмірів */
+display: block; /* Виправлення проблеми з пробілами внизу картинки */
+margin: 0 auto; /* Центрує картинку в блоці */
+}
+.about-p{
+color:#534c46;
+padding: 0 20px;
+max-width: 600px;
+text-align: justify;
+margin-left: 30px;
+
+}
+.about-p-big{
+color:#b77e44;
+font-size: 48px;
+margin-bottom: 0;
+}
+h1{
+font-size: 54px;
+line-height: 0.7;
+}
+.about-container{
+background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        margin-top: 56px;
+}
+.contact-container{
+background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.6); /* Прозорий білий фон для навігації */
+}
+
+.navbar-nav .nav-link {
+    color: black !important;    
+}
+.name-about{
+color: black !important;
+}
+@media (max-width: 767px) {
+    .about-container {
+    margin-top: 0;
+    padding: 10px;
+    }
+
+    .person {
+    width: 100%;
+    height: auto;
+}
+}
+.burger{
+color: black !important;
+fill: black;
+}
+.navbar-toggler{
+background-color: #FFC33C;
+}
+/* Vik */
+.experience-cards{
+    margin-left: 30px;
+    display: flex;
+}
+.experience-card {
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.experience-title {
+    font-size: 22   px;
+    color: #b77e44;
+}
+
+.experience-title span {
+    display: block;
+}
+
+.experience-details {
+margin-top: 10px;
+font-size: 1.1rem;
+color: #534c4cd6;
+}
+
+.skills-list {
+list-style: none;
+padding: 0;
+}
+
+.skill {
+margin-bottom: 5px;
+display: inline-block;
+background-color: #b77e44;
+color: #ffffff;
+padding: 5px 10px;
+border-radius: 5px;
+margin-right: 5px;
+}
+
+.res-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.6); /* Прозорий білий фон для навігації */
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.card-title {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+/* Vik */
+/* Allla */
+.contact-info {
+    background-color: #FFC33C !important;
+    color: #464242e8;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    height: 360px;
+}
+
+.contact-info i {
+    margin-right: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    }
+    
+    input,
+    textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    }
+    
+    .btn, button {
+    background-color:#FFC33C ;
+    color: white;
+    cursor: pointer;
+    }
+    
+    .btn:hover {
+    background-color: #966c0b !important;
+    }
+        
+    .contact-form {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    }
+
+    .contact-form h2 {
+        margin-bottom: 30px;
+    }
+/* Alla */
+/* Yul */
+    footer {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: #FFC33C;
+        color: black;
+        /* height: 20vh;
+        padding: 20px; */
+    }
+  .footer-content {
+    padding: 20px;
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .footer-content p{
+    margin-bottom: 0;
+  }
+  .footer-authors {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+  }
+  .footer-authors img{
+      width: 24px;
+      height: 24px;
+  }
+  .footer-authors a{
+    display: block;
+    text-align: center;
+  }
+
+  .footer-name {
+    font-size: 20px;
+  }
+
+  .author-name{
+    font-size: 16px;
+    color:#966c0b;
+  }
+/* Yul */

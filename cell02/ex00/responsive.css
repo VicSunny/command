@@ -1,0 +1,19 @@
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: auto;
+}
+td{
+   border: 1px solid #000; 
+}
+.box {
+    height: 100px;
+}
+.box-first {
+    background-color: aqua;
+}
+.box-second {
+    background-color: azure;
+}

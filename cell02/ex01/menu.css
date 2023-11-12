@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+  }
+
+  main {
+    padding: 2em;
+  }
+
+  .Sandwich{
+    position: relative;
+    display: inline-block;
+  }
+
+  .Sandwich-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .Sandwich-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+  }
+
+  .Sandwich-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .Sandwich-content a:hover {
+    background-color: #f4f4f4;
+  }
+
+  .Sandwich:hover .Sandwich-content {
+    display: block;
+  }
